@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<client-settings class="java.util.HashMap" xmlns="http://xmlns.oracle.com/jdeveloper/110000/client-preferences">
+   <Item>
+      <Key>Dialog:oracle.odi.ui.dialog.LoginDetailUrlDescDialog</Key>
+      <Value class="oracle.cef.ui.dialog.DialogConfiguration">
+         <height>240</height>
+         <width>490</width>
+      </Value>
+   </Item>
+   <Item>
+      <Key>GROOVY_SAVED_SCRIPTS</Key>
+      <Value class="oracle.di.studio.groovy.DiGroovyRecentFilesSettings">
+         <configValue>/opt/oracle/.odi/oracledi</configValue>
+         <lastScriptPath>/opt/oracle/.odi/oracledi</lastScriptPath>
+      </Value>
+   </Item>
+   <Item>
+      <Key>OdiTableConfigSetting.DebugBreakpointDockableWindow.DesignBreakpointTable</Key>
+      <Value class="com.sunopsis.graphical.component.toolbar.OdiTableConfigSetting">
+         <configValue>0;-1;true~1;-1;true~2;-1;true~3;-1;true~4;-1;true~5;-1;true~6;-1;true~7;-1;true</configValue>
+      </Value>
+   </Item>
+   <Item>
+      <Key>OdiTableConfigSetting.DebugBreakpointDockableWindow.SessionBreakpointsTable</Key>
+      <Value class="com.sunopsis.graphical.component.toolbar.OdiTableConfigSetting">
+         <configValue>0;-1;true~1;-1;true~2;-1;true~3;-1;true~4;-1;true~5;-1;true~6;-1;true~7;-1;true</configValue>
+      </Value>
+   </Item>
+</client-settings>

@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="UTF-8"?><user-param-list><Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_ENCRYPTION_KEY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Encryption Key]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Default Encryption Key to be used on this machine]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_STYLE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[sunopsisthemepack.zip]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[GUI Skin]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Skin to apply to your Oracle Data Integrator Graphical Interface]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_SKIN]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[com.l2fprod.gui.plaf.skin.SkinLookAndFeel]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[GUI Skin]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Skin to apply to your Oracle Data Integrator Graphical Interface]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SKIN_THEME_OFFICE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[NormalColor]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[GUI Skin]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Skin to apply to your Oracle Data Integrator Graphical Interface]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_IMPORT_DIR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Default Import Directory]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsFileChooserEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Default directory where the Import files are read]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_IMPORT_MODE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXPORT_DIR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[/opt/oracle]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Default Export Directory]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsFileChooserEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Default directory where the Export files are generated]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_PDF_DIR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Default PDF generation directory]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsDirChooserEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Default directory where the PDF reports are generated]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[READER_PDF]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[PDF Viewer]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsFileChooserEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Complete Path to your PDF viewer such as Adobe Acrobat Reader]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[3]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_DESKTOP]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[DEFAULT_DESKTOP_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[DEFAULT_DESKTOP_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[3]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_STRETCH]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[TEXT]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[DEFAULT_STRETCH_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[DEFAULT_STRETCH_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[3]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXECUTION_AGENT]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Default Agent]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Default Agent used for execution and control]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[3]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXECUTION_CONTEXT]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Default Context for execution]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Default Context for execution]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[3]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_DESIGNER_CONTEXT]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Default Designer Context]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Affects the Designer Context of an Interface]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[3]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_DIAGRAM_IMG_DIR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Directory for Saving your Diagrams (PNG)]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsDirChooserEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Default Directory for Saving your PNG diagrams]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[3]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_START_WIZARD]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[DEFAULT_START_WIZARD_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[DEFAULT_START_WIZARD_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[3]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_STATEMENT_CACHE_SIZE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Query buffer size]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Query buffer size for ODI repository JDBC connections. Only applicable to Oracle JDBC driver.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[3]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_PURGE_CONTEXT]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_HIDE_TECHNO_TOPOLOGY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String">null</Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXPRESSION_EDITOR_HEIGHT]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String">null</Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXPRESSION_EDITOR_WIDTH]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String">null</Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_HIDE_TECHNO_SECURITY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String">null</Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_HIDE_TECHNO_DESIGNER]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String">null</Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[APPLY_HOMONYMY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Yes]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Automatic Mapping]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If this parameter is set to YES, automatic mapping by matching column name will be performed when adding a source or target datastore.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_FILTRE_AGENT]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_FILTRE_USER]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_FILTRE_CONTEXT]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_FILTRE_STATE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_FILTRE_DUREE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_FILTRE_SESS_ID]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_FILTRE_SESS_NAME]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_FILTRE_DATE_SESS_DEB]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_FILTRE_DATE_SESS_END]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_ACTIVE_FILTER]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_GENERATE_ALL_SCEN_GENERATE_PACKAGES]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_GENERATE_ALL_SCEN_GENERATE_MAPS]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_GENERATE_ALL_SCEN_GENERATE_POPS]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_GENERATE_ALL_SCEN_GENERATE_TRTS]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_GENERATE_ALL_SCEN_GENERATE_VARS]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXPORT_ALL_SCEN_EXPORT_PACKAGES]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXPORT_ALL_SCEN_EXPORT_POPS]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXPORT_ALL_SCEN_EXPORT_MAPPINGS]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXPORT_ALL_SCEN_EXPORT_TRTS]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXPORT_ALL_SCEN_EXPORT_VARS]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DESIGNER_ACTION_DESIGNER]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[2]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DESIGNER_ACTION_OPERATOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DESIGNER_ACTION_TOPOLOGY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DESIGNER_ACTION_SECURITY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[OPERATOR_ACTION_DESIGNER]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[2]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[OPERATOR_ACTION_OPERATOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[OPERATOR_ACTION_TOPOLOGY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[OPERATOR_ACTION_SECURITY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[TOPOLOGY_ACTION_DESIGNER]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[2]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[TOPOLOGY_ACTION_OPERATOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[TOPOLOGY_ACTION_TOPOLOGY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[TOPOLOGY_ACTION_SECURITY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SECURITY_ACTION_DESIGNER]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[2]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SECURITY_ACTION_OPERATOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SECURITY_ACTION_TOPOLOGY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SECURITY_ACTION_SECURITY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[TOOLBAR_OPTION_TEXT]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[TOOLBAR_OPTION_ICON]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[ARRAY_FETCH]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[100]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Operator display limit (0=no limit)]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Used during a Refresh to limit the number of elements displayed in a branch of the Operator treeview.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[20]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SHOW_OPRTR_DISP_LIMIT_DIALOG]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Enable Operator display limit dialog]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Show a warning dialog each time the Operator display limit is exceeded. [Enable/Disable = 1/0]]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[21]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[LAST_OPERATOR_VUE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[PACK_PROPERTY_FRAME_SIZE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[300,200]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[REFRESH_AUTO_DELAY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Delay between two refresh (seconds)]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Inter-refresh delay]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_SIDE_BAR_ROLLOVER]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[true]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_SHADING_EFFECT]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[true]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_TAB_ON_TOP]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[false]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_SHOW_TITLEBAR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[true]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SAVED_SORT_PACK_TABLE_EXE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SAVED_SORT_PACK_TABLE_SCEN]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SAVED_SORT_POP_TABLE_EXE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SAVED_SORT_POP_TABLE_SCEN]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SAVED_SORT_TRT_TABLE_EXE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SAVED_SORT_TRT_TABLE_SCEN]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SHOW_TOOL_TIPS_AT_STATUP]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[true]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_REPOSITORY_CONNECTION_TIMEOUT]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[7200]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[JDBC Connection Timeout]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Timeout used by Oracle Data Integrator for the database connections.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[4]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_LOCK_SCREEN_DESIGNER]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[false]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_LOCK_SCREEN_OPERATOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[false]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_LOCK_SCREEN_TOPOLOGY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[false]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_LOCK_SCREEN_SECURITY]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[false]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[LAST_ACTIVED_TAB_INDEX]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[REVERSE_ONLY_SNPS_TABLES]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Ask]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Process Model Datastores Only]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If this parameter is set to YES, DDL generation will only be performed for existing datastores of the Oracle Data Integrator model; If set to NO, it will also process new tables from the data server.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_SNPS_IFOLDER]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SAVE_POS_TOOLBOX_PACKAGE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DELETE_SNPSESSION]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Ask]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Delete Linked Sessions]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Automatically deletes all linked sessions when removing Mappings, Packages, Procedures, Variables or Scenarios]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_USE_CONCURENTIAL_UPDATE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Check for concurrent editing]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Verify that objects have not been modified in the repository by other users when saving changes.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_LOCK_ON_OPENING]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Ask]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Lock object when opening]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Lock object when opening]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_UNLOCK_ON_CLOSING]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Ask]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Unlock object when closing]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Unlock object when closing]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[USE_NEW_LOAD_BALANCING]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Yes]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Use the new Load Balancing]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Sessions are dynamically re-allocated from overloaded agents to less loaded agents.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DISPLAY_TREEVIEW_MARKERS]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Yes]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Display markers and memo flags]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Display or hide markers and memos in various treeviews.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_WS_GEN_PATH]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Default path for generation of Data Services]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsDirChooserEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Default path for generation of Data Services.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_WS_CONTEXT]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Default Context for Generating Data Services]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Context used by default when generating Data Services.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[WSCLIENT_REQUEST_SPLITER_ORIENTATION]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Orientation of SOAP editor]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Orientation of splitter in SOAP editor]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[WSCLIENT_CLEAN_BEFORE_INVOCATION]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[true]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Remove unused optional SOAP elements]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Remove unused optional elements from SOAP request prior to execution.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[WSCLIENT_MRU_URL]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Recent URLs]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Recent URLs]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_FILEWIZARD_SIZE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXPORT_JAVACHAR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[ISO8859_1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Export default Java encoding]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Export default Java encoding]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[4]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXPORT_CHARXML]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[ISO-8859-1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Export default XML charset]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Default export XML charset encoding]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[5]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_EXPORT_VERSION]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[1.0]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Export default version]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Export default version]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[6]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_USE_CDC_IN_TREE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Yes]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Show the CDC modifications in the tree]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Shows the CDC modifications in the tree (1/0=Enabled/Disabled)]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[7]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DISPLAY_TREEVIEW_RESNAME]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Yes]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Display resource names in the tree.]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Display resource names in the tree.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[8]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DISPLAY_TREEVIEW_LOCK_ICONS]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Yes]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Display lock icons in the tree.]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Display lock icons in the tree. Disabling this option can provide a speed improvement when displaying the tree view.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[NAMING_CONVENTION]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[%OBJECT_NAME%]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Scenario Naming Convention]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[The convention to use when naming a Scenario.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[399]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[USE_NOT_ACCESSIBLE_MODEL_CACHE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[No]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Keeps in the cache the list of models whose DBMS is not accessible.]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If this user parameter is set to YES, the list of models whose DBMS is not accessible is kept in the cache. This speeds up expanding and displaying the nodes under these models.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[TRUSTED_ENCODINGS_IO_DB]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[No]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Never transform non ASCII characters to underscores]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[When YES, no characters are transformed during an export or an alias generation. Beware, should only be used on platforms fully supporting your encoding.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SKIP_PROMPT_ON_EXIT]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[YES]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Bypass 'Exit ODI' prompt on exit]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If this user parameter is set to YES the exit confirmation dialog will NOT be shown.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SKIP_SHORTCUT_NAME_CHANGE_WARNING]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[No]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Skip Shortcut Name changed warning]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If this user parameter is set to YES the Shortcut Name changed warning will NOT be shown.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SKIP_MOVE_WARNING]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[No]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Skip Move warning]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If this user parameter is set to YES the object Move warning will NOT be shown.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SKIP_STARTED_POPUP]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[No]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Skip Started Session popup]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[SKIP_STARTED_POPUP_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DEFAULT_HIDE_ONCONDCN_OPERATOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[No]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Hide On Connect and Disconnect Steps]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If this user parameter is set to YES On Connect and Disconnect Steps will NOT be shown.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[CREATE_DEFAULT_DATASET_ON_NEW_MAPPING]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Create a Default DataSet on creation of a new Mapping.]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If this user parameter is set to 1 the Create Default Dataset checkbox will be checked.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[UPGRADE_INTERFACE_11G_SDK_COMPATIBLE_MAPPING]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[No]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Maintain 11g SDK compatibility for migrated interfaces]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[When YES, interfaces upgraded during an ODI import will be compatible with the 11g SDK.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DONT_SHOW_DATASET_LOOKUP_JOIN_DIALOG]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[No]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Bypass 'Create Lookup or Join' dialog in Dataset]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If this parameter is set to YES, the 'Create Lookup or Join' dialog will NOT be shown.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SAVE_LOGIN_CREDENTIALS]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Yes]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Save Login Credentials]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If the value is YES the current ODI login user password and the master repository database password will be saved to local client; if it is NO the credentials will not be saved.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SAVE_LOGIN_CREDENTIALS_WALLET]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[NO]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Save Login Credentials into Wallet]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If the value is YES, ODI login user password and the master repository database password will be stored in encrypted wallet file. This gives more security, but will require entering wallet password each time login data needs to be accessed.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DISPLAY_MISSING_REF_IN_TREE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[No]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Display Missing Reference in the tree ]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Caution:Enabling this option can cause display performance in the tree view, in particular with large work repository (Default is NO = Not displayed)]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DISPLAY_MAPPING_CHANGE_NOTIFICATION]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Yes]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Display 'Change Notification' dialog for mappings.]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If this user parameter set to No, the mapping 'Change Notification' dialog will not be shown.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SKIP_REPOSITORY_LOCALHOST_WARNING]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Skip warning when using localhost in Work Repository JDBC URL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If selected the use localhost warning will not be shown when the Work Repository is created on localhost.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[ROLLBACK_TRANS_ON_STEP_FAILURE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[FALSE]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Rollback all open transactions on step failure]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[When TRUE, all open transactions will be rolled back when a session step fails, otherwise open transactions will be rolled back in the end when session completes in Error status.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SKIP_PROCESS_CREATION_MSG]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[No]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Skip GoldenGate Process creation information message]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If this user parameter is set to YES the GoldenGate process creation information message will NOT be shown.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SKIP_EXPORT_KEY_WARNING]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[No]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Skip Export Key warning]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[SKIP_EXPORT_KEY_WARNING_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[GROOVY_CLASSPATH]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Groovy Classpath]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Specifies the Groovy classpath]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DELETED_OBJECT_COLOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[-47872]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[DELETED_OBJECT_COLOR_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[oracle.cef.ui.component.ButtonColorPicker]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[DELETED_OBJECT_COLOR_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[NEW_OBJECT_COLOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[-4128962]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[NEW_OBJECT_COLOR_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[oracle.cef.ui.component.ButtonColorPicker]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[NEW_OBJECT_COLOR_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[MODIFIED_OBJECT_COLOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[-256]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[MODIFIED_OBJECT_COLOR_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[oracle.cef.ui.component.ButtonColorPicker]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[MODIFIED_OBJECT_COLOR_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[UNCHANGED_OBJECT_COLOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[-1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[UNCHANGED_OBJECT_COLOR_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[oracle.cef.ui.component.ButtonColorPicker]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[UNCHANGED_OBJECT_COLOR_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[DELETED_FIELD_COLOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[-47872]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[DELETED_FIELD_COLOR_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[oracle.cef.ui.component.ButtonColorPicker]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[DELETED_FIELD_COLOR_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[NEW_FIELD_COLOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[-4128962]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[NEW_FIELD_COLOR_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[oracle.cef.ui.component.ButtonColorPicker]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[NEW_FIELD_COLOR_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[MODIFIED_FIELD_COLOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[-23296]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[MODIFIED_FIELD_COLOR_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[oracle.cef.ui.component.ButtonColorPicker]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[MODIFIED_FIELD_COLOR_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[UNCHANGED_FIELD_COLOR]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[-1]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[UNCHANGED_FIELD_COLOR_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[oracle.cef.ui.component.ButtonColorPicker]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[UNCHANGED_FIELD_COLOR_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SUBVERSION_WORK]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[SUBVERSION_WORK_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[SUBVERSION_WORK_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SUBVERSION_WORK_MERGE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[SUBVERSION_WORK_MERGE_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[SUBVERSION_WORK_MERGE_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[SELECT_LAST_EXECUTED_PHYDESIGN]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[Yes]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Select last executed physical design in the Mapping Execution dialog]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[If this user parameter set to Yes, the last executed physical design will be pre-selected in Mapping Execution dialog invoked from the tree]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[USE_UNIQUE_TEMPORARY_OBJECT_NAMES]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[No]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[Use Unique Temporary Object Names]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[Enable this to use non conflicting temporary object names when executing mappings concurrently.]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[RECENT_OBJECTS]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[RECENT_OBJECTS_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[RECENT_OBJECTS_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[MERGE_CHANGE_OBJECT_DETECTION]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[true]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[MERGE_CHANGE_OBJECT_DETECTION_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[MERGE_CHANGE_OBJECT_DETECTION_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUserParam">
+		<Field name="Key" type="java.lang.String"><![CDATA[MERGE_THREE_WAY_COMPARE]]></Field>
+	<Field name="Value" type="java.lang.String"><![CDATA[true]]></Field>
+	<Field name="Label" type="java.lang.String"><![CDATA[MERGE_THREE_WAY_COMPARE_LABEL]]></Field>
+	<Field name="Type" type="java.lang.String"><![CDATA[com.sunopsis.graphical.userparam.SnpsTextFieldEditor]]></Field>
+	<Field name="Help" type="java.lang.String"><![CDATA[MERGE_THREE_WAY_COMPARE_HELP]]></Field>
+	<Field name="Visible" type="boolean"><![CDATA[false]]></Field>
+	<Field name="Updatable" type="boolean"><![CDATA[true]]></Field>
+	<Field name="Position" type="int"><![CDATA[0]]></Field>
+</Object>
+</user-param-list>

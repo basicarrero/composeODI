@@ -1,0 +1,10 @@
+; Additional paths file
+; You can add here paths to additional libraries
+; Examples:
+;	C:\ java\libs\myjar.jar
+;	C:\ java\libs\myzip.zip
+;	C:\java\libs\*.jar will add all jars contained in the C:\java\libs\ directory
+;	C:\java\libs\**\*.jar will add all jars contained in the C:\java\libs\ directory and subdirectories
+
+
+

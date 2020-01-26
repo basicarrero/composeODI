@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="anonymousMode_1">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_RunManagerWindow"/>
+    </fileobject>
+    <fileobject name="anonymousMode_2">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_LogWindow.Log/NBDC_TCPPacketMonitor/NBDC_HTTPInstanceDockable/NBDC_VHVPropertiesDockable.VHVPropertiesDockable"/>
+    </fileobject>
+    <fileobject name="anonymousMode_3">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_oracle-odi-ui-docking-module.oracle-odi-ui-docking-designer/NBDC_oracle-odi-ui-docking-module.oracle-odi-ui-docking-operator/NBDC_oracle-odi-ui-docking-module.oracle-odi-ui-docking-topology/NBDC_oracle-odi-ui-docking-module.oracle-odi-ui-docking-security"/>
+    </fileobject>
+    <fileobject name="anonymousMode_4">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_oracle-odi-ui-docking-module.oracle-odi-ui-docking-search"/>
+    </fileobject>
+    <fileobject name="anonymousMode_5">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_oracle-odi-ui-docking-module.oracle-odi-ui-docking-debuggerbreakpoint/NBDC_oracle-odi-ui-docking-module.oracle-odi-ui-docking-debugger-data-0/NBDC_oracle-odi-ui-docking-module.oracle-odi-ui-docking-debugger-variables/NBDC_oracle-odi-ui-docking-module.oracle-odi-ui-docking-debug-session-table/NBDC_oracle-odi-ui-docking-module.oracle-odi-ui-docking-debuggerthreads"/>
+    </fileobject>
+    <fileobject name="anonymousMode_6">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_mef-validation.Mapping"/>
+    </fileobject>
+    <fileobject name="east">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_PALETTEFACTORY.PALETTE"/>
+    </fileobject>
+    <fileobject name="south">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_InspectorWindow.SingletonInspectorWindow"/>
+    </fileobject>
+    <fileobject name="west">
+        <attr name="WinSys-TCRef-Order" stringvalue="NBDC_ExplorerWindow.SingletonExplorerWindow/NBDC_UnifiedThumbnailDockable.UnifiedThumbnailDockable/NBDC_CALL_HIERARCHY_VIEW_TYPE.CallHierarchy"/>
+    </fileobject>
+</attributes>

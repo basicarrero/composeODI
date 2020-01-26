@@ -1,0 +1,30 @@
+<LayoutInfo>
+   <clientLayoutData>
+      <global>
+         <view-data ClosedByUser="false" ID="LogWindow.Log"/>
+      </global>
+      <Editing layout-name="Editing">
+         <view-data USE_LARGE_ICONS="true" pageSelection="" ID="PALETTEFACTORY.PALETTE"/>
+      </Editing>
+   </clientLayoutData>
+   <knownDockableFactories>
+      <PALETTEFACTORY/>
+      <CALL_HIERARCHY_VIEW_TYPE/>
+      <RunManagerWindow/>
+      <Applicationoracle_ideimpl_editor_RecentFiles_VIEW_TYPE/>
+      <InspectorWindow/>
+      <ExplorerWindow/>
+      <HTTPInstanceDockable/>
+      <oracle-odi-ui-docking-module/>
+      <LogWindow/>
+      <Systemoracle_ideimpl_editor_RecentFiles_VIEW_TYPE/>
+      <UnifiedThumbnailDockable/>
+      <VHVPropertiesDockable/>
+      <mef-validation/>
+      <TCPPacketMonitor/>
+   </knownDockableFactories>
+   <knowTriggeredLayouts>
+      <Editing/>
+   </knowTriggeredLayouts>
+   <visibilityLayouts/>
+</LayoutInfo>
