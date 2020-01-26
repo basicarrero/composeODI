@@ -2,7 +2,7 @@ version: '2'
 
 services:
   ODIdatabase:
-    image: basiliocarreroavanttic/database-enterprise:12.2.0.1
+    image: container-registry.oracle.com/database/enterprise:12.2.0.1
     container_name: ODIdatabase
     volumes:
       - odiDBData:/ORCL
@@ -13,17 +13,17 @@ services:
     networks: 
       default:
         aliases:
-        - ${COMPUTERNAME}
+        - docker.avanttic.com
 
   ODIagent:
-    image: basiliocarreroavanttic/odiagent:12.2.1.3
+    image: docker.avanttic.com/odiagent:12.2.1.3
     container_name: ODIagent
     ports:
       - 20910:20910
       - 5901:5901
     environment:
       RCUPREFIX: CON
-      DB_HOST: ${COMPUTERNAME}
+      DB_HOST: docker.avanttic.com
       DB_PORT: 1521
       DB_SERVICE: ORCLPDB1
       DB_PASSWORD: Oradoc_db1
@@ -31,8 +31,8 @@ services:
       SUPERVISOR_PASSWORD: Welcome1
       WORK_REPO_NAME: WORKREP
       WORK_REPO_PASSWORD: Welcome1
-      HOST_NAME: ${COMPUTERNAME}
+      HOST_NAME: docker.avanttic.com
     networks: 
       default:
         aliases:
-        - ${COMPUTERNAME}
+        - docker.avanttic.com
